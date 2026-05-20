@@ -227,3 +227,5 @@ These exercises are designed to push you beyond passive learning, forcing you to
 Found an error or have better benchmarks? PRs welcome! This guide improves with community input.
 
 Originally inspired by [this discussion](https://reddit.com/r/webdev/comments/1thxgg7/).
+
+> Part of [Community Dev Guides](https://github.com/essentialols/community-dev-guides) - a curated collection of community-driven developer guides.
