@@ -336,3 +336,20 @@ export default RealtimeCounter;
 // To run this:
 // 1. npm init -y
 // 2. npm
+
+---
+
+## Sources and Links
+
+**Primary source:** [The entry level dev jobs are disappearing](https://reddit.com/r/webdev/comments/1thxgg7/) (Reddit thread)
+
+**Official documentation:**
+
+- [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/)
+- [GitHub Octoverse Report](https://octoverse.github.com/)
+
+**Methodology:** Community comments were scraped and classified by type. Upvote counts are noted but do not constitute independent verification. All community claims are flagged as unverified.
+
+## License
+
+MIT
