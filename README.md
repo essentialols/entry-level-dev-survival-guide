@@ -1,19 +1,19 @@
 # Navigating the 2025-2026 Developer Job Market: A Roadmap for New Entrants
 
-I observe a stark reality for aspiring developers: the entry-level job market has fundamentally shifted, demanding a new approach to skill acquisition and portfolio building. The traditional path of learning a framework, building a CRUD app, and landing a junior role is increasingly closed off. The conversation on platforms like r/webdev highlights this, with sentiments suggesting that "the entry level dev jobs are disappearing" ([source](https://reddit.com/r/webdev/comments/1thxgg7/)). This guide outlines a revised roadmap, focusing on strategies that align with the current landscape.
+I observe a stark reality for aspiring developers: the entry-level job market has fundamentally shifted, demanding a new approach to skill acquisition and portfolio building. The traditional path of learning a framework, building a CRUD app, and landing a junior role is increasingly closed off. The conversation on platforms like r/webdev highlights this, with sentiments suggesting that "the entry level dev jobs are disappearing" [1]. This guide outlines a revised roadmap, focusing on strategies that align with the current landscape.
 
 ## Where You Are Now (Assessment)
 
-The current environment is challenging. Many companies, driven by efficiency and the capabilities of AI tools, are opting to hire more senior engineers or expect junior engineers to demonstrate a level of capability previously associated with mid-level roles. A common sentiment is that tasks once performed by juniors can now be completed by a senior developer "in an afternoon with Copilot" (user comment, 8 upvotes, not independently verified) ([source](https://reddit.com/r/webdev/comments/1thxgg7/)). This creates a significant hurdle for new entrants.
+The current environment is challenging. Many companies, driven by efficiency and the capabilities of AI tools, are opting to hire more senior engineers or expect junior engineers to demonstrate a level of capability previously associated with mid-level roles. A common sentiment is that tasks once performed by juniors can now be completed by a senior developer "in an afternoon with Copilot" (user comment, 8 upvotes, not independently verified) [2]. This creates a significant hurdle for new entrants.
 
-I hear from even highly skilled new graduates who are struggling. One user, despite having released a JavaScript library for audio-vibration sync and building a complex chat application with multi-client and backend state synchronization, reported struggling to find a good job (user comment, 9 upvotes, not independently verified) ([source](https://reddit.com/r/webdev/comments/1thxgg7/)). This indicates that simply building functional projects, even impressive ones, is no longer sufficient. The bar has risen dramatically.
+I hear from even highly skilled new graduates who are struggling. One user, despite having released a JavaScript library for audio-vibration sync and building a complex chat application with multi-client and backend state synchronization, reported struggling to find a good job (user comment, 9 upvotes, not independently verified) [3]. This indicates that simply building functional projects, even impressive ones, is no longer sufficient. The bar has risen dramatically.
 
 **Self-Assessment: Current Skills & Mindset**
 
 Before starting, I recommend honestly assessing your current standing. This isn't about blaming yourself, but understanding the gap.
 
-1.  **Fundamental Understanding vs. Tool Usage:** Can you explain *why* a particular algorithm is efficient, or just how to use a library that implements it? One hiring manager noted having to "apply restrictions on AI usage to ensure they understood what they were doing and ensuring they learnt the fundamentals" for a fresh graduate (user comment, 34 upvotes, not independently verified) ([source](https://reddit.com/r/webdev/comments/1thxgg7/)). This highlights a critical learning gap.
-2.  **Problem-Solving vs. Feature Implementation:** Are your projects merely feature lists, or do they solve a non-trivial problem? The "proximity was the actual education" line (user comment, 2 upvotes, not independently verified) ([source](https://reddit.com/r/webdev/comments/1thxgg7/)) speaks to the loss of organic learning from senior mentorship, meaning you need to simulate that problem-solving experience yourself.
+1.  **Fundamental Understanding vs. Tool Usage:** Can you explain *why* a particular algorithm is efficient, or just how to use a library that implements it? One hiring manager noted having to "apply restrictions on AI usage to ensure they understood what they were doing and ensuring they learnt the fundamentals" for a fresh graduate (user comment, 34 upvotes, not independently verified) [4]. This highlights a critical learning gap.
+2.  **Problem-Solving vs. Feature Implementation:** Are your projects merely feature lists, or do they solve a non-trivial problem? The "proximity was the actual education" line (user comment, 2 upvotes, not independently verified) [5] speaks to the loss of organic learning from senior mentorship, meaning you need to simulate that problem-solving experience yourself.
 3.  **Depth vs. Breadth:** Do you have a shallow understanding of many technologies, or a deep understanding of a few core ones? Specialization, even at an entry level, can be an advantage.
 
 The goal isn't just to write code, but to demonstrate an understanding of *how* systems work, *why* certain architectural choices are made, and *how to solve complex problems independently*.
@@ -24,8 +24,8 @@ The goal isn't just to write code, but to demonstrate an understanding of *how* 
 | :------------------------------ | :--------------------------------------------- | :-------------------------------------------------------- | :---------------------------------------------------- |
 | **Core Skills Depth**           | Basic syntax, framework usage                  | Deep understanding of fundamentals, data structures, algorithms | AI handles boilerplate; juniors must add unique value |
 | **Project Complexity**          | CRUD apps, simple portfolios                   | Unique problem-solving projects, architectural thinking   | Higher bar; AI can generate simple apps faster        |
-| **Independent Problem Solving** | Relied on senior mentorship for blockers       | Expected to research, debug, and solve independently      | Loss of "proximity education" ([source](https://reddit.com/r/webdev/comments/1thxgg7/))                     |
-| **Tooling Proficiency**         | IDEs, version control                          | AI-assisted development (Copilot, LLMs) *understood* deeply | Efficiency demands; but "understanding" is key ([source](https://reddit.com/r/webdev/comments/1thxgg7/))    |
+| **Independent Problem Solving** | Relied on senior mentorship for blockers       | Expected to research, debug, and solve independently      | Loss of "proximity education" [6]                     |
+| **Tooling Proficiency**         | IDEs, version control                          | AI-assisted development (Copilot, LLMs) *understood* deeply | Efficiency demands; but "understanding" is key [7]    |
 | **Deployment Knowledge**        | Limited, often CI/CD handled by seniors        | Basic cloud deployment, CI/CD awareness                   | Full-stack expectations increasing                    |
 | **Value Proposition**           | Learning capacity, entry-level tasks           | Problem solver, foundational expert, efficient builder    | Reduced overhead for seniors, long-term potential     |
 
@@ -192,7 +192,7 @@ app.post('/login', (req, res) => {
 // --- Middleware to verify JWT ---
 function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];
-  const token = authHeader && authHeader.split(' ')([source](https://reddit.com/r/webdev/comments/1thxgg7/));
+  const token = authHeader && authHeader.split(' ')[8];
 
   if (token == null) return res.sendStatus(401); // No token
 
@@ -229,7 +229,7 @@ app.listen(PORT, () => {
 
 ## Phase 3: Applied Projects (Week 5-8)
 
-This is where you bridge the gap between learning concepts and demonstrating real-world value. Recall the highly skilled graduate who struggled despite "releasing first ever JS library to sync audio and vibration patterns" and building a "chat app like whatsapp where I synced multiple client state, and backend state even" (user comment, 9 upvotes, not independently verified) ([source](https://reddit.com/r/webdev/comments/1thxgg7/)). This tells me that simply *building* complex things is not enough. You need to showcase *unique problem-solving, architectural thinking, and a deeper understanding of software engineering principles*.
+This is where you bridge the gap between learning concepts and demonstrating real-world value. Recall the highly skilled graduate who struggled despite "releasing first ever JS library to sync audio and vibration patterns" and building a "chat app like whatsapp where I synced multiple client state, and backend state even" (user comment, 9 upvotes, not independently verified) [9]. This tells me that simply *building* complex things is not enough. You need to showcase *unique problem-solving, architectural thinking, and a deeper understanding of software engineering principles*.
 
 **Focus:** Building 2-3 significant, non-trivial projects that address specific, interesting problems. These projects should move beyond basic CRUD applications and demonstrate a full understanding of the chosen stack, deployment, and perhaps even interaction with emerging or niche technologies.
 
@@ -243,7 +243,7 @@ This is where you bridge the gap between learning concepts and demonstrating rea
     *   **Example 3: Performance Optimization:** Build an image gallery or a rich content viewer that focuses heavily on lazy loading, image optimization, and Lighthouse scores. Document your optimization process.
 4.  **Deployment & Infrastructure:** Get your projects live. Use services like Vercel, Netlify, Render, or a basic AWS/GCP/Azure setup. This shows you understand the full lifecycle.
 5.  **Testing & Code Quality:** Include unit, integration, and even basic end-to-end tests. Use linting and formatting. Write clear, concise documentation for your code.
-6.  **Simulate Mentorship:** Since "proximity was the actual education" (user comment, 2 upvotes, not independently verified) ([source](https://reddit.com/r/webdev/comments/1thxgg7/)) is often missing, engage with open-source projects or find a study group. Get peer reviews for your code. This simulates the feedback loop.
+6.  **Simulate Mentorship:** Since "proximity was the actual education" (user comment, 2 upvotes, not independently verified) [10] is often missing, engage with open-source projects or find a study group. Get peer reviews for your code. This simulates the feedback loop.
 
 **Example Project Ideas:**
 
@@ -339,16 +339,27 @@ export default RealtimeCounter;
 
 ---
 
-## Sources and Links
+## Sources
 
-**Primary source:** [The entry level dev jobs are disappearing](https://reddit.com/r/webdev/comments/1thxgg7/) (Reddit thread)
+**Primary source:** [Entry Level Dev Survival Guide](https://reddit.com/r/webdev/comments/1thxgg7/) (Reddit thread)
 
 **Official documentation:**
 
 - [Stack Overflow Developer Survey 2025](https://survey.stackoverflow.co/2025/)
-- [GitHub Octoverse Report](https://octoverse.github.com/)
+- [GitHub Octoverse](https://octoverse.github.com/)
 
-**Methodology:** Community comments were scraped and classified by type. Upvote counts are noted but do not constitute independent verification. All community claims are flagged as unverified.
+**Note:** Inline references like [1], [2] link to the primary Reddit thread. Upvote counts reflect time of collection, not independent verification.
+
+[1]: https://reddit.com/r/webdev/comments/1thxgg7/
+[2]: https://reddit.com/r/webdev/comments/1thxgg7/
+[3]: https://reddit.com/r/webdev/comments/1thxgg7/
+[4]: https://reddit.com/r/webdev/comments/1thxgg7/
+[5]: https://reddit.com/r/webdev/comments/1thxgg7/
+[6]: https://reddit.com/r/webdev/comments/1thxgg7/
+[7]: https://reddit.com/r/webdev/comments/1thxgg7/
+[8]: https://reddit.com/r/webdev/comments/1thxgg7/
+[9]: https://reddit.com/r/webdev/comments/1thxgg7/
+[10]: https://reddit.com/r/webdev/comments/1thxgg7/
 
 ## License
 
